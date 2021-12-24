@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image: url(media/1910721.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+}
+
+#logo{
+    text-decoration: none;
+    font-size: 2.5rem;
+    background-color: #f3dfe7;
+	background-image: linear-gradient(to top, #eedfe4 0%, #e23307 100%);
+	background-size: 100%;
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-moz-text-fill-color: transparent;
+    font-style: oblique;
+    font-weight: bolder;
+    font-variant:small-caps;
+    cursor: pointer;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.navbar{
+    width: 88%;
+    margin: auto;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin:0 15px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 20px;
+    background-color: #f3dfe7;
+	background-image: linear-gradient(to top, #e60909 0%, rgb(239, 243, 23) 100%);
+	background-size: 100%;
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-moz-text-fill-color: transparent;
+    font-weight: bolder;
+}
+
+.content{
+    width: 100%;
+    position: absolute;
+    top: 20%;
+    padding-left: 80px;
+}
+
+.left{
+    margin:6%;
+}
+
+h1{
+    /* text-transform: uppercase; */
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-variant: small-caps;
+    background-color: #f3dfe7;
+	background-image: linear-gradient(to top, #eedfe4 0%, #e23307 100%);
+	background-size: 100%;
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-moz-text-fill-color: transparent;
+}
+
+.left h1{
+    font-size:80px;
+    color:#fff;
+    line-height: 100px;
+    float:left
+}
+
+
+.right{
+    float:right;
+    margin-right:30%;
+    margin-top:80px;
+    display: flex;
+    align-items: center;
+}
+p{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    background-color: #f3dfe7;
+	background-image: linear-gradient(to top, #c51111 0%, #0c1f8a 100%);
+	background-size: 100%;
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-moz-text-fill-color: transparent;
+}
+
+.right p{
+    font-size:20px;
+    color:#fff;
+    margin-right:20px;
+}
+
+#icon{
+    width:30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+
+@media
+
